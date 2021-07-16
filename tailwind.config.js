@@ -1,11 +1,14 @@
+const colors = require('tailwindcss/colors');
 module.exports = {
-  mode: 'jit',
   purge: ['./src/**/*.{js,jsx,ts,tsx}', './public/index.html'],
   darkMode: false, // or 'media' or 'class'
   theme: {
+    fontFamily: {
+      sans: ['Questrial', 'sans-serif'],
+    },
     extend: {
-      fontFamily: {
-        sans: ['Questrial', 'sans-serif'],
+      colors: {
+        teal: colors.teal,
       },
     },
   },
