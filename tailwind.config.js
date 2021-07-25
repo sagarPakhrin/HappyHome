@@ -11,6 +11,7 @@ module.exports = {
         coolGray: colors.coolGray,
         sky: colors.sky,
         teal: colors.teal,
+        primary: '#5FBACD',
       },
     },
   },
