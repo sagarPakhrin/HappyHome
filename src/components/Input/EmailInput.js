@@ -24,7 +24,7 @@ const EmailInput = ({ isValid = false, label, ...props }) => {
           autoComplete="off"
         />
         {isValid && (
-          <span class="material-icons absolute right-0 text-teal-400 select-none">
+          <span className="material-icons absolute right-0 text-teal-400 select-none">
             check_box
           </span>
         )}

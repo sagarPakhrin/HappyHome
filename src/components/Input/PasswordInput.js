@@ -25,7 +25,7 @@ const PasswordInput = ({ label, ...props }) => {
         />
         {type === 'password' ? (
           <span
-            class="material-icons absolute right-0 text-teal-400 select-none cursor-pointer"
+            className="material-icons absolute right-0 text-teal-400 select-none cursor-pointer"
             onClick={() => {
               setType('text');
             }}
@@ -34,7 +34,7 @@ const PasswordInput = ({ label, ...props }) => {
           </span>
         ) : (
           <span
-            class="material-icons absolute right-0 text-teal-400 select-none cursor-pointer"
+            className="material-icons absolute right-0 text-teal-400 select-none cursor-pointer"
             onClick={() => {
               setType('password');
             }}
